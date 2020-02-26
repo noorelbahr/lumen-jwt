@@ -67,13 +67,15 @@ Then click `Run in Postman` button on top right and Open with `Postman for Mac/W
 
 You can test every single endpoint in the postman collection
 
+---
 
+### Can't see picture from user's picture url ???
 ##### Create Symlink for Storage Public Folder
 Lumen's artisan doesn't support `storage`, that's why we can't use `php artisan storage:link` in Lumen.
 
 So, we have to create it manually with `ln -s source_file symbolic_link`, example:
 ```
 mkdir storage/app/public
-ln -s ~/full/path/to/lumen-passport/storage/app/public ~/full/path/to/lument-passport/public/storage
+ln -s ~/full/path/to/lumen-jwt/storage/app/public ~/full/path/to/lument-jwt/public/storage
 ```
 Replace `~/full/path/to/` with your full path of your project directory.
