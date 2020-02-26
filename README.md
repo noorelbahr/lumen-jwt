@@ -40,11 +40,11 @@ password: john123
 ```
 
 ##### Run Our Project
-Run command below to serve our project locally, we are going to use `port 8888`
+Run command below to serve our project locally, we are going to use `port 8080`
 ```
-php -S localhost:8888 -t public
+php -S localhost:8080 -t public
 ```
-Now we can access our project with url http://localhost:8888
+Now we can access our project with url http://localhost:8080
 
 
 ## Testing Our API
