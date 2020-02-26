@@ -32,7 +32,7 @@ Don't forget to create new database named `jwt`, we will use it as our database 
 ```
 php artisan migrate && php artisan db:seed
 ```
-It will creates 1 default users for us.
+It will creates 1 default user for us.
 ```
 fullname: John Doe
 username: johndoe
